@@ -81,6 +81,41 @@ background-size: cover;
   color: white;
 }
 
+/* cards goes here */
+.card-container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+.card-container .card-one{
+  height: 70%;
+  background-color: rgba(0, 0, 0,0.6);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10%;
+}
+.card-container .card-one .animated-gif{
+  width: 100%;
+  height: 70%;
+  background-color: rgba(0, 0, 0,0.6);
+}
+.card-container .card-one .gif-head{
+  width: 100%;
+  height: 15%;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}
+.card-container .card-one .loader{
+  width: 100%;
+  height: 20%;
+  background-color: royalblue;
+}
 /* footer goes here */
 .footer-container{
   height: 50vh;

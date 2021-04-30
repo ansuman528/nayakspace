@@ -10,7 +10,8 @@
     });
   });
   $(document).ready(function(){
-    $(window).load(function() {
-      $('.preloader').fadeOut('slow');
-   });
+    $('.preloader').fadeOut(2500, function() 
+    {
+        $(this).remove();
+    });
   });

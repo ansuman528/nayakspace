@@ -9,3 +9,8 @@
       }
     });
   });
+  $(document).ready(function(){
+    $(window).load(function() {
+      $('.preloader').fadeOut('slow');
+   });
+  });
